@@ -7,7 +7,6 @@ int main()
     int minute=0, heure=0;
     printf("Indiquer un nombre de minutes :");
     scanf("%d", minute);
-    heure=minute;
     conversion(&heure, &minute);
     printf("\n Ce qui correspond a %d heure(s) et %d miute(s)", heure, minute);
 
@@ -15,6 +14,6 @@ int main()
 }
 void conversion(int* h, int* m)
 {
-    *h = *h/60;
+    *h = *m/60;
     *m = *m%60;
 }
