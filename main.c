@@ -14,6 +14,6 @@ int main()
 }
 void conversion(int* h, int* m)
 {
-    *h = *m/60;
-    *m = *m%60;
+    *h = *m / 60;
+    *m = *m % 60;
 }
