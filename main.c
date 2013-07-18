@@ -5,9 +5,8 @@ void conversion(int* h, int* m);
 int main()
 {
     int minute=0, heure=0;
-    int* pointeurMinute=&minute;
     printf("Indiquer un nombre de minutes :");
-    scanf("%p", pointeurMinute);
+    scanf("%p", &Minute);
     conversion(&heure, &minute);
     printf("\n Ce qui correspond a %d heure(s) et %d minute(s)", heure, minute);
 
